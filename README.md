@@ -24,4 +24,5 @@ python -m cryptolab.ch01.frequency_attack   # every module has a runnable demo
 | 4 AES | 4.1 round trace, 4.2 NIST vectors, 4.4 AES-NI benchmark, 4.5 file-encryption CLI | [ch04](docs/ch04.md) | done |
 | 5 Block-cipher modes | 5.1 ECB penguin, 5.3 GCM + tamper, 5.5 TLS audit, 5.6 secure log | [ch05](docs/ch05.md) | done |
 | 6 Public-key intro | 6.2 modexp, 6.4 symmetric vs RSA, 6.5 hybrid encryption, 6.6 MITM | [ch06](docs/ch06.md) | done |
-| 7-13 | in progress | | |
+| 7 RSA | 7.1 toy key, 7.2 OAEP + textbook breaks, 7.4 modexp benchmark, 7.6 common-factor break | [ch07](docs/ch07.md) | done |
+| 8-13 | in progress | | |
