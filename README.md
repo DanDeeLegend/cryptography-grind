@@ -26,4 +26,5 @@ python -m cryptolab.ch01.frequency_attack   # every module has a runnable demo
 | 6 Public-key intro | 6.2 modexp, 6.4 symmetric vs RSA, 6.5 hybrid encryption, 6.6 MITM | [ch06](docs/ch06.md) | done |
 | 7 RSA | 7.1 toy key, 7.2 OAEP + textbook breaks, 7.4 modexp benchmark, 7.6 common-factor break | [ch07](docs/ch07.md) | done |
 | 8 Discrete log | 8.1 DH, 8.2 DH MITM + signatures, 8.3 ElGamal, 8.5 group benchmark, 8.6 authenticated key exchange | [ch08](docs/ch08.md) | done |
-| 9-13 | not started | | |
+| 9 Elliptic curves | 9.1 point arithmetic, 9.2 ECDH comparison, 9.5 ECC vs RSA memo, 9.6 ECDSA nonce reuse | [ch09](docs/ch09.md) | done |
+| 10-13 | not started | | |
