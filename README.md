@@ -23,4 +23,5 @@ python -m cryptolab.ch01.frequency_attack   # every module has a runnable demo
 | 3 DES | 3.1 Feistel trace, 3.2 meet-in-the-middle, 3.4 brute force, 3.5 3DES vs AES | [ch03](docs/ch03.md) | done |
 | 4 AES | 4.1 round trace, 4.2 NIST vectors, 4.4 AES-NI benchmark, 4.5 file-encryption CLI | [ch04](docs/ch04.md) | done |
 | 5 Block-cipher modes | 5.1 ECB penguin, 5.3 GCM + tamper, 5.5 TLS audit, 5.6 secure log | [ch05](docs/ch05.md) | done |
-| 6-13 | in progress | | |
+| 6 Public-key intro | 6.2 modexp, 6.4 symmetric vs RSA, 6.5 hybrid encryption, 6.6 MITM | [ch06](docs/ch06.md) | done |
+| 7-13 | in progress | | |
