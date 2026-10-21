@@ -27,4 +27,5 @@ python -m cryptolab.ch01.frequency_attack   # every module has a runnable demo
 | 7 RSA | 7.1 toy key, 7.2 OAEP + textbook breaks, 7.4 modexp benchmark, 7.6 common-factor break | [ch07](docs/ch07.md) | done |
 | 8 Discrete log | 8.1 DH, 8.2 DH MITM + signatures, 8.3 ElGamal, 8.5 group benchmark, 8.6 authenticated key exchange | [ch08](docs/ch08.md) | done |
 | 9 Elliptic curves | 9.1 point arithmetic, 9.2 ECDH comparison, 9.5 ECC vs RSA memo, 9.6 ECDSA nonce reuse | [ch09](docs/ch09.md) | done |
-| 10-13 | not started | | |
+| 10 Digital signatures | 10.1 RSA PKCS#1 v1.5 vs OpenSSL, 10.5 textbook-RSA forgeries, 10.6 cert chains | [ch10](docs/ch10.md) | done |
+| 11-13 | not started | | |
