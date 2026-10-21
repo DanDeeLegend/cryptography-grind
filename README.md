@@ -30,4 +30,4 @@ python -m cryptolab.ch01.frequency_attack   # every module has a runnable demo
 | 10 Digital signatures | 10.1 RSA PKCS#1 v1.5 vs OpenSSL, 10.5 textbook-RSA forgeries, 10.6 cert chains | [ch10](docs/ch10.md) | done |
 | 11 Hash functions | 11.1 avalanche, 11.2 birthday collisions, 11.4 password storage, 11.6 integrity tool | [ch11](docs/ch11.md) | done |
 | 12 MACs | 12.1 HMAC (RFC 4231), 12.2 length extension, 12.4 EtM vs MtE + padding oracle, 12.5 webhooks, 12.6 EtM vs GCM | [ch12](docs/ch12.md) | done |
-| 13 | not started | | |
+| 13 PKI | 13.2 chain validation (local CA + live), 13.5 mini-TLS capstone | [ch13](docs/ch13.md) | done |
