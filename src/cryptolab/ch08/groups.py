@@ -1,0 +1,53 @@
+"""Standardised safe-prime Diffie-Hellman groups from RFC 7919 (ffdhe2048/3072/4096).
+
+Generated from OpenSSL's named-group table and verified (tests): p and (p-1)/2 are both prime, g = 2.
+Never invent your own group or reuse a small/old one (see the Logjam attack); use a standardised group or ECDH.
+"""
+
+FFDHE2048_P = int(
+    ""
+    "ffffffffffffffffadf85458a2bb4a9aafdc5620273d3cf1d8b9c583ce2d3695"
+    "a9e13641146433fbcc939dce249b3ef97d2fe363630c75d8f681b202aec4617a"
+    "d3df1ed5d5fd65612433f51f5f066ed0856365553ded1af3b557135e7f57c935"
+    "984f0c70e0e68b77e2a689daf3efe8721df158a136ade73530acca4f483a797a"
+    "bc0ab182b324fb61d108a94bb2c8e3fbb96adab760d7f4681d4f42a3de394df4"
+    "ae56ede76372bb190b07a7c8ee0a6d709e02fce1cdf7e2ecc03404cd28342f61"
+    "9172fe9ce98583ff8e4f1232eef28183c3fe3b1b4c6fad733bb5fcbc2ec22005"
+    "c58ef1837d1683b2c6f34a26c1b2effa886b423861285c97ffffffffffffffff"
+    , 16)
+
+FFDHE3072_P = int(
+    ""
+    "ffffffffffffffffadf85458a2bb4a9aafdc5620273d3cf1d8b9c583ce2d3695"
+    "a9e13641146433fbcc939dce249b3ef97d2fe363630c75d8f681b202aec4617a"
+    "d3df1ed5d5fd65612433f51f5f066ed0856365553ded1af3b557135e7f57c935"
+    "984f0c70e0e68b77e2a689daf3efe8721df158a136ade73530acca4f483a797a"
+    "bc0ab182b324fb61d108a94bb2c8e3fbb96adab760d7f4681d4f42a3de394df4"
+    "ae56ede76372bb190b07a7c8ee0a6d709e02fce1cdf7e2ecc03404cd28342f61"
+    "9172fe9ce98583ff8e4f1232eef28183c3fe3b1b4c6fad733bb5fcbc2ec22005"
+    "c58ef1837d1683b2c6f34a26c1b2effa886b4238611fcfdcde355b3b6519035b"
+    "bc34f4def99c023861b46fc9d6e6c9077ad91d2691f7f7ee598cb0fac186d91c"
+    "aefe130985139270b4130c93bc437944f4fd4452e2d74dd364f2e21e71f54bff"
+    "5cae82ab9c9df69ee86d2bc522363a0dabc521979b0deada1dbf9a42d5c4484e"
+    "0abcd06bfa53ddef3c1b20ee3fd59d7c25e41d2b66c62e37ffffffffffffffff"
+    , 16)
+
+FFDHE4096_P = int(
+    ""
+    "ffffffffffffffffadf85458a2bb4a9aafdc5620273d3cf1d8b9c583ce2d3695"
+    "a9e13641146433fbcc939dce249b3ef97d2fe363630c75d8f681b202aec4617a"
+    "d3df1ed5d5fd65612433f51f5f066ed0856365553ded1af3b557135e7f57c935"
+    "984f0c70e0e68b77e2a689daf3efe8721df158a136ade73530acca4f483a797a"
+    "bc0ab182b324fb61d108a94bb2c8e3fbb96adab760d7f4681d4f42a3de394df4"
+    "ae56ede76372bb190b07a7c8ee0a6d709e02fce1cdf7e2ecc03404cd28342f61"
+    "9172fe9ce98583ff8e4f1232eef28183c3fe3b1b4c6fad733bb5fcbc2ec22005"
+    "c58ef1837d1683b2c6f34a26c1b2effa886b4238611fcfdcde355b3b6519035b"
+    "bc34f4def99c023861b46fc9d6e6c9077ad91d2691f7f7ee598cb0fac186d91c"
+    "aefe130985139270b4130c93bc437944f4fd4452e2d74dd364f2e21e71f54bff"
+    "5cae82ab9c9df69ee86d2bc522363a0dabc521979b0deada1dbf9a42d5c4484e"
+    "0abcd06bfa53ddef3c1b20ee3fd59d7c25e41d2b669e1ef16e6f52c3164df4fb"
+    "7930e9e4e58857b6ac7d5f42d69f6d187763cf1d5503400487f55ba57e31cc7a"
+    "7135c886efb4318aed6a1e012d9e6832a907600a918130c46dc778f971ad0038"
+    "092999a333cb8b7a1a1db93d7140003c2a4ecea9f98d0acc0a8291cdcec97dcf"
+    "8ec9b55a7f88a46b4db5a851f44182e1c68a007e5e655f6affffffffffffffff"
+    , 16)
